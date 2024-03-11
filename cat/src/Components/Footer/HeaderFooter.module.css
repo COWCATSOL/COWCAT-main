@@ -1,0 +1,42 @@
+.movingBar {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 50px; /* Adjust as necessary */
+  background: linear-gradient(to right, #9ebed8 0%, #04cde4 100%);
+}
+
+.movingContent {
+  display: flex;
+  align-items: center;
+  animation: moveContent 60s linear infinite; /* Slower movement with 60s duration */
+  width: 400%; /* Adjusted width to make sure there's enough content to loop */
+}
+
+.movingItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto; /* Automatically size the width based on content */
+  flex-shrink: 0; /* Prevent items from shrinking */
+}
+
+.movingItemImage {
+  display: inline-block;
+  background: url('./cathappy.jpg') center center no-repeat;
+  background-size: contain;
+  width: 100px; /* Adjust width as necessary */
+  height: 50px; /* Adjust height as necessary */
+}
+
+.movingItemText {
+  display: inline-block;
+  margin: 0 10px; /* Space between text and image */
+  color: white;
+  font-size: 2rem; /* Adjusted font size for visibility */
+}
+
+@keyframes moveContent {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); } /* Changed to -100% for a full loop */
+}

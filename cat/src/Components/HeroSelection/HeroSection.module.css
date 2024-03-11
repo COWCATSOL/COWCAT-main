@@ -1,0 +1,50 @@
+.hero {
+    background-image: linear-gradient(to right, #9ebed8 0%, #04cde4 100%);
+    text-align: center;
+    padding: 300px 20px; /* Adjust the padding to match your layout */
+  }
+  
+  .title {
+    font-size: 5rem; /* Adjust size as necessary */
+    color: white;
+    margin-bottom: 20px; /* Adjust spacing as necessary */
+  }
+  
+  .centralContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between the icons and the central image */
+  }
+  
+  .centralImage {
+    width: 600px; /* Adjust size as necessary */
+    margin: 0 20px; /* Center the image */
+  }
+  
+  .iconLink {
+    display: inline-flex; /* Aligns the icon image properly */
+    justify-content: center;
+    align-items: center;
+    width: 60px; /* Smaller width for the icons */
+    height: 60px; /* Smaller height for the icons */
+    margin: 0 10px; /* Adjust spacing between icons as necessary */
+  }
+  
+  .iconLink img {
+    width: 120%; /* Ensures the image fills the iconLink container */
+    height: auto; /* Maintains the aspect ratio of the icon */
+  }
+
+  .description1 {
+    font-size: 2.5rem; /* Adjust size as necessary */
+    color: rgb(0, 0, 0);
+    margin-top: 50px; /* Adjust spacing as necessary */
+  }
+
+  .description2 {
+    font-size: 3.5rem; /* Adjust size as necessary */
+    color: rgb(0, 0, 0);
+    margin-top: 50px; /* Adjust spacing as necessary */
+  }
+  

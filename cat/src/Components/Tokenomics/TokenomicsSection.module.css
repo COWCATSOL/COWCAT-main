@@ -1,0 +1,48 @@
+.tokenomicsSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
+  padding: 100px 20px;
+}
+
+.textContent {
+  order: 2; /* This will position the text content before the image */
+  margin-bottom: 100px;
+}
+
+.catImage {
+  order: 1; /* This will position the image after the text content */
+}
+/* Add your other styles here */
+.tokenLink {
+  display: block; /* or inline-block depending on your layout needs */
+  margin-top: 5px; /* Spacing above each link */
+  color: white; /* or any other color you prefer */
+  text-decoration: none; /* Removes the underline from the links */
+  font-size: 40px; /* Adjust the font size as needed */
+}
+
+/* Add :hover and :active states if needed for better UX */
+.tokenLink:hover {
+  text-decoration: underline; /* Example hover effect */
+}
+
+/* Add to your existing styles */
+.link {
+  color: white; /* Choose a color that matches your design */
+  text-decoration: none; /* Remove the underline from links */
+  display: block; /* Make the links stack vertically */
+  margin: 5px 0; /* Spacing between links */
+}
+
+.link:hover {
+  text-decoration: underline; /* Add underline on hover for better user interaction */
+}
+
+/* Adjust your other styles as needed */
+.imageContainer img {
+  width: 500px; /* Increase the width as desired */
+  height: auto; /* Maintain the aspect ratio */
+  /* Other styles if needed */
+}
